@@ -7,7 +7,7 @@ const counterReducer = (state = initState, action) => {
     if (action.type === "increase") {
         return {...state ,value :  state.value + action.payload}
     }
-    //بعد كدا هنشيل كل التعقيدات دي خالص
+    
     if (action.type === "decrease") {
         return {...state ,value : state.value  - action.payload }
     }
